@@ -1,0 +1,15 @@
+meta {
+  name: All users
+  type: http
+  seq: 5
+}
+
+get {
+  url: http://localhost:3456/users
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZvdGVjaEB2bzIuY29tIiwiZXhwIjoxNzMxMjUzNTMxLjI2NTcwNn0._Y-Ehr4dQ_BB-Z_ChMoqMnsxWHfdD3s641lLVB63wXw
+}

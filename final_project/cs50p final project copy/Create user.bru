@@ -1,0 +1,15 @@
+meta {
+  name: Create user
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3456/user
+  body: json
+  auth: none
+}
+
+body:json {
+  {"password": "1234", "email": "hello@g.com"}
+}

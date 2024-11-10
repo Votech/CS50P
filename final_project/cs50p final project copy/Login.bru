@@ -1,0 +1,15 @@
+meta {
+  name: Login
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3456/token
+  body: json
+  auth: none
+}
+
+body:json {
+  {"email": "votech@vo2.com", "password": "1234"}
+}

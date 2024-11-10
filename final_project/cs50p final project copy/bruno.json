@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "cs50p final project ",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
